@@ -18,11 +18,14 @@ body,html{
     display: flex;
     justify-content: space-between;
 }
-.top img{
+.top .logoo{
     width: 15%;
     height: fit-content;
     margin-top: 30px;
     margin-left: 50px;
+}
+.top .logoo img{
+    width: 100%;
 }
 .top_text{
     display: flex;
