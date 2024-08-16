@@ -95,6 +95,8 @@
                     <img src="img/sofort.png" alt="">
                 </div>
                 <a href="">Bonus Sichern</a>
+                <p class="info_p small_info_p"><img src="img/info.png" alt="">Nur bei der 1. Einzahlung gültig. Unser Willkommensangebot besteht aus einem 400% Balance Booster bis zu 10 EUR plus 100 Freispiele...</p>
+                <p class="info_p big_info_p"><img src="img/info.png" alt="">Nur bei der 1. Einzahlung gültig. Unser Willkommensangebot besteht aus einem 400% Balance Booster bis zu 10 EUR plus 100 Freispiele. Jeder eingezahlte Betrag bis zu 10 EUR wird vervierfacht und dem Spielerkonto als Bonusgeld gutgeschrieben. Im Rahmen des Willkommensangebotes werden über einen Zeitraum von fünf (5) Tagen 20 Freispiele pro Tag zugeteilt. Der Wert der im Wildz Willkommensbonus angebotenen Freispiele beträgt jeweils 0,10 EUR.</p>
             </div>
             <div class="cont_wildz">
                 <div class="cont_image">
@@ -126,6 +128,8 @@
                     <img src="img/sofort.png" alt="">
                 </div>
                 <a href="">Bonus Sichern</a>
+                <p class="info_p small_info_p"><img src="img/info.png" alt="">Bonuscode: GLUECK. Wird bei der Einzahlung automatisch gutgeschrieben. Stornierung kann angefordert werden. Nur für die erste Einzahlung...</p>
+                <p class="info_p big_info_p"><img src="img/info.png" alt="">Bonuscode: GLUECK. Wird bei der Einzahlung automatisch gutgeschrieben. Stornierung kann angefordert werden. Nur für die erste Einzahlung. Max. Bonus 100 €. Die maximale Anzahl an Freispielen ist 50. Spiel: Book of Dead, Spielwert: 0,10 € je Dreh. Einsatzanforderung: Innerhalb von 30 Tagen 30 Mal den Einzahlungs- und Bonusbetrag und 60 Mal den Freispiel-Gewinnbetrag setzen. Der maximale Einsatz sind 10 % (min. 0,10 €) des Freispiel-Gewinnbetrags und Bonusbetrags oder 5 € (geringster Betrag gilt). Die Spiele müssen verwendet bzw. der Bonus in Anspruch genommen werden, bevor das eingezahlte Guthaben genutzt wird. Einzahlungs-/ Willkommensboni dürfen nur einmal innerhalb von 72 Stunden bei allen Betreibern beansprucht werden.</p>
             </div>
             <div class="cont_wildz">
                 <div class="cont_image">
@@ -161,6 +165,8 @@
                     <img src="img/zimpler.png" alt="">
                 </div>
                 <a href="">Bonus Sichern</a>
+                <p class="info_p small_info_p"><img src="img/info.png" alt="">Wird bei der Einzahlung automatisch gutgeschrieben. Stornierung kann angefordert werden. Nur die erste Einzahlung. Min...</p>
+                <p class="info_p big_info_p"><img src="img/info.png" alt="">Wird bei der Einzahlung automatisch gutgeschrieben. Stornierung kann angefordert werden. Nur die erste Einzahlung. Min. Einzahlung: €10, max. Bonus €100. Spiel: Book Of Dead, pielwert: €0.1. Einsatzanforderung: Innerhalb von 30 Tagen 30 Mal den Einzahlungs- und Bonusbetrag und 60 Mal den Freispiel-Gewinnbetrag setzen (nur Spielautomaten zählen). Der maximale Einsatz sind 10 % (min. 0,10€) des Freispiel-Gewinnbetrags und Bonusbetrags oder 5€ (geringster Betrag gilt). Die Spiele müssen verwendet bzw. der Bonus in Anspruch genommen werden, bevor das eingezahlte Guthaben genutzt wird.Einzahlungs-/ Willkommensboni dürfen nur einmal innerhalb von 72 Stunden bei allen Betreibern beansprucht werden.</p>
             </div>
         </div>
         <div class="fur" id="about">
@@ -229,6 +235,14 @@
     }, 40000);
     $('.exit').on('click',function(){
         $('.pop_up_best').css('display','none');
+    });
+    $('.small_info_p').on('click',function(){
+        $(this).css('display','none');
+        $(this).next().css('display','block');
+    });
+    $('.big_info_p').on('click',function(){
+        $(this).css('display','none');
+        $(this).prev().css('display','block');
     });
         </script>
 </body>

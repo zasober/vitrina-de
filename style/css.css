@@ -140,6 +140,7 @@ body,html{
     background: #1A1A1A;
     border: 0.5px solid #0FB403;
     border-radius: 5px;
+    height: fit-content;
 }
 .cont_image{
     width: 80%;
@@ -610,7 +611,23 @@ span{
     color: #fff;
     font-family: 'text';
 }
-
+.info_p{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 150%;
+    width: 90%;
+    cursor: pointer;
+    text-align: center;
+}
+.info_p img{
+    height: 13px;
+    width: fit-content;
+    margin-right: 5px;
+}
+.big_info_p{
+    display: none;
+}
 @media (max-width: 900px){
     .cont_wildz h1{
         font-size: 22px;
