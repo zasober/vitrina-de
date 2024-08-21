@@ -174,9 +174,18 @@ body,html{
     margin-top: 5px;
 }
 .cont_wildz h1{
+    text-transform: uppercase;
+    text-align: center;
     color: #FFFFFF;
     font-size: 24px;
     font-weight: 800;
+    margin-bottom: 0px;
+}
+.cont_wildz h2{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 0px;
 }
 span{
     color: #0FB403;
@@ -631,6 +640,10 @@ span{
 @media (max-width: 900px){
     .cont_wildz h1{
         font-size: 22px;
+        
+    }
+    .cont_wildz h2{
+       font-size: 18px;
     }
     .bottom_block_pop{
         flex-direction: column;
